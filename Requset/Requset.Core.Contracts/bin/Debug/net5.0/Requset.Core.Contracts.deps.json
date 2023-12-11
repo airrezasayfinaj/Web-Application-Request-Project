@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Requset.Core.Contracts/1.0.0": {
+        "dependencies": {
+          "Requset.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Requset.Core.Contracts.dll": {}
+        }
+      },
+      "Requset.Domain.Core/1.0.0": {
+        "runtime": {
+          "Requset.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Requset.Core.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Requset.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

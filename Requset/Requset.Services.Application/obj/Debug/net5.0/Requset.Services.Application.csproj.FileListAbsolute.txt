@@ -1,0 +1,17 @@
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\bin\Debug\net5.0\Requset.Services.Application.deps.json
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\bin\Debug\net5.0\Requset.Services.Application.dll
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\bin\Debug\net5.0\ref\Requset.Services.Application.dll
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\bin\Debug\net5.0\Requset.Services.Application.pdb
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\bin\Debug\net5.0\Requset.Core.Contracts.dll
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\bin\Debug\net5.0\Requset.Domain.Core.dll
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\bin\Debug\net5.0\Requset.Core.Contracts.pdb
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\bin\Debug\net5.0\Requset.Domain.Core.pdb
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\obj\Debug\net5.0\Requset.Services.Application.csproj.AssemblyReference.cache
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\obj\Debug\net5.0\Requset.Services.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\obj\Debug\net5.0\Requset.Services.Application.AssemblyInfoInputs.cache
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\obj\Debug\net5.0\Requset.Services.Application.AssemblyInfo.cs
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\obj\Debug\net5.0\Requset.Services.Application.csproj.CoreCompileInputs.cache
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\obj\Debug\net5.0\Requset.Services.Application.csproj.CopyComplete
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\obj\Debug\net5.0\Requset.Services.Application.dll
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\obj\Debug\net5.0\ref\Requset.Services.Application.dll
+C:\Users\Castel\Desktop\Ctl idias\Requset\Requset.Services.Application\obj\Debug\net5.0\Requset.Services.Application.pdb

@@ -1,0 +1,347 @@
+﻿@model Request.MVC.Model.RequsetPerson.AddNewRequsetPersonViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+
+        <div class="logo">Castel</div>
+
+        <div class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Request registration</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">More</a></li>
+        </div>
+
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+
+        <form action="#">
+            <input type="search" class="search-data" placeholder="Search" required>
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+
+    </nav>
+    <button class="btn-sign-in">Sign in</button>
+    <div class="content">
+        <h5 style="
+            position: absolute;
+            left: 120px;
+            top: 225px;">
+            welcome to
+        </h5>
+        <h1 style="
+            position: absolute;
+            left: 120px;
+            top: 250px;
+        ">
+            Castel website
+        </h1>
+        <h1 style="
+            position: absolute;
+            left: 120px;
+            top: 300px;
+        ">
+            Request registration,
+        </h1>
+        <h2 style="
+            position: absolute;
+            left: 120px;
+            top: 350px;
+        ">
+            Create your own projects and selled
+        </h2>
+        <small style="
+            position: absolute;
+            left: 120px;
+            top: 415px;
+        ">
+            you can create are even buy project
+            or even Request a project from us just so easy
+        </small>
+
+    </div>
+    <button class="btn-request"><a href="#sendh1">Request</a></button>
+    <button class="btn-projects"><a href="#projecth1">Projects</a></button>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+
+            <img src="c-sharp-c.svg" style="width:300px">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="PngItem_4938088.png" style="width:300px">
+
+        </div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <div class="request">
+        <img src="dark-bg.jpg" alt="" class="img-darkbg">
+        <h1 id="sendh1" style="position: absolute;
+                        top: 900px;
+                        left: 500px;
+                        color: aliceblue;">
+            send requset project
+        </h1>
+        <hr style=" width: 400px;
+                        top: 1000px;
+                        position: absolute;
+                        left: 460px;
+                        color: purple;">
+    </div>
+    <div class="project">
+        <h1 id="projecth1" style="position: absolute;
+                    top: 1500px;
+                    left: 500px;
+                    color: aliceblue;">
+            Project ready for you
+        </h1>
+        <hr style=" width: 400px;
+                            top: 1600px;
+                            position: absolute;
+                            left: 460px;
+                            color: purple;">
+    </div>
+    <form asp-action="Index" asp-controller="Home" method="post">
+        <div class="input-field">
+            <input type="text" placeholder="Name :" required spellcheck="false" asp-for="Name" maxlength="50">
+        </div>
+        <div class="input-family">
+            <input type="text" placeholder="Family :" required spellcheck="false" asp-for="Family" maxlength="50">
+        </div>
+        <div class="input-email">
+            <input type="text" placeholder="Email :" required spellcheck="false" asp-for="Email">
+        </div>
+        <div class="input-phone">
+            <input type="text" placeholder="phone :" required spellcheck="false" asp-for="Phone">
+        </div>
+        <div class="input-City">
+            <input type="text" placeholder="City :" required spellcheck="false" asp-for="City">
+        </div>
+        <div class="input-request">
+            <input type="text" placeholder="type of request :" required spellcheck="false" asp-for="RequsetType">
+        </div>
+        <div class="input-date">
+            <input type="text" placeholder="date time :" required spellcheck="false" asp-for="Datetime">
+        </div>
+        <div class="input-Details">
+            <input type="text" placeholder="Details :" required spellcheck="false" asp-for="Details">
+        </div>
+        <button class="btn-sub">Submit</button>
+    </form>
+    <section>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card text-center">
+                            <div class="title">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <h2>Cofee shop website</h2>
+                            </div>
+                            <div class="price">
+                                <h4><sup>$</sup>25</h4>
+                            </div>
+                            <div class="option">
+                                <ul>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i> Responsiv </li>
+                                </ul>
+                                <ul>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i> Html,Css,Javascript </li>
+                                </ul>
+                                <ul>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i> have Image  </li>
+                                </ul>
+                                <ul>
+                                    <li> <i class="fa fa-times" aria-hidden="true"></i> no suppotaion </li>
+                                </ul>
+                            </div>
+                            <a href="#">Subscribe Now </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card text-center">
+                            <div class="title">
+                                <i class="fa fa-plane" aria-hidden="true"></i>
+                                <h2>library C#</h2>
+                            </div>
+                            <div class="price">
+                                <h4><sup>$</sup>50</h4>
+                            </div>
+                            <div class="option">
+                                <ul>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i>C# </li>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i> Windows Form </li>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i> Database Sqlserver </li>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i> with supportaion </li>
+                                </ul>
+                            </div>
+                            <a href="#">Subscribe Now </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card text-center">
+                            <div class="title">
+                                <i class="fa fa-rocket" aria-hidden="true"></i>
+                                <h2>Restorent c#</h2>
+                            </div>
+                            <div class="price">
+                                <h4><sup>$</sup>100</h4>
+                            </div>
+                            <div class="option">
+                                <ul>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i>  C# </li>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i> windows form</li>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i> Database Sqlserver</li>
+                                    <li> <i class="fa fa-check" aria-hidden="true"></i> with Support </li>
+                                </ul>
+                            </div>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="main"> FOOTER DESIGN IN HTML CSS</div>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>WebDev<span>Trick</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Blog</a>
+                ·
+                <a href="#">Pricing</a>
+                ·
+                <a href="#">About</a>
+                ·
+                <a href="#">Faq</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Castel &copy; 2019</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>21 Revolution Street</span> Delhi, India</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 555 123456</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">contact@webdevtrick.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Web Dev Trick is a blog for web designers, graphic designers, web developers &amp; SEO Learner.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-icon span");
+        const searchBtn = document.querySelector(".search-icon");
+        const cancelBtn = document.querySelector(".cancel-icon");
+        const items = document.querySelector(".nav-items");
+        const form = document.querySelector("form");
+        menuBtn.onclick = () => {
+            items.classList.add("active");
+            menuBtn.classList.add("hide");
+            searchBtn.classList.add("hide");
+            cancelBtn.classList.add("show");
+        }
+        cancelBtn.onclick = () => {
+            items.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            searchBtn.classList.remove("hide");
+            cancelBtn.classList.remove("show");
+            form.classList.remove("active");
+        }
+        searchBtn.onclick = () => {
+            form.classList.add("active");
+            searchBtn.classList.add("hide");
+            cancelBtn.classList.add("show");
+        }
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Requset.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Requset.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Requset.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Requset.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Requset.Domain.Core/Requset.Domain.Core.csproj",
+      "msbuildProject": "../Requset.Domain.Core/Requset.Domain.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Requset.Domain.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Castel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Castel\\Desktop\\Ctl idias\\Requset\\Requset.Core.Contracts\\Requset.Core.Contracts.csproj",
+      "projectName": "Requset.Core.Contracts",
+      "projectPath": "C:\\Users\\Castel\\Desktop\\Ctl idias\\Requset\\Requset.Core.Contracts\\Requset.Core.Contracts.csproj",
+      "packagesPath": "C:\\Users\\Castel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Castel\\Desktop\\Ctl idias\\Requset\\Requset.Core.Contracts\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Castel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Castel\\Desktop\\Ctl idias\\Requset\\Requset.Domain.Core\\Requset.Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\Castel\\Desktop\\Ctl idias\\Requset\\Requset.Domain.Core\\Requset.Domain.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

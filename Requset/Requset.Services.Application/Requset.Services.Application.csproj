@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Requset.Core.Contracts\Requset.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Requset.Domain.Core\Requset.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>
